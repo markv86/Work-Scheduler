@@ -3,11 +3,11 @@
 //WHEN I open the planner
 //THEN the current day is displayed at the top of the calendar (#currentday)
     //JQuerry or DOM manipulation 
-const moment = require('moment');
 
-var datetoday = moment.format("DD/MM/YYYY");
-$("#currentDay").html(todayDate);
-console.log(datetoday)
+
+// var datetoday = moment.format("DD/MM/YYYY");
+// $("#currentDay").html(todayDate);
+// console.log(datetoday)
 
 
 
